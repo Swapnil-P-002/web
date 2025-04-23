@@ -1,0 +1,376 @@
+/* General Styling */
+html,body{
+    height:100%vh;
+    width:100%vw;
+}
+body {
+
+    /* background-attachment: fixed; */
+    background-color: #333;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #141414;
+}
+
+nav{
+    background-color: #4ECDC4; /* Turquoise */
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav h1 {
+    margin: 0;
+    font-size: 28px;
+    color: rgb(224, 92, 92);
+}
+
+nav button {
+    background-color: #FF6B6B; /* Red */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+nav button:hover {
+    background-color: #FF4C4C; /* Darker Red */
+   
+}
+
+header {
+    
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+header h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    height:1200px;
+    background-color:none;
+    background-image: url(https://th.bing.com/th/id/R.bb28b54399761fc65ff403c94299497d?rik=1NEC4UndQdaaqw&riu=http%3a%2f%2fwww.zastavki.com%2fpictures%2foriginals%2f2014%2fCreative_Wallpaper_Stack_of_books_on_the_bench_082401_.jpg&ehk=uia0wBMuDRBSjo12VEn3TJvW6d2oN7ye2qe%2fm5nIywo%3d&risl=&pid=ImgRaw&r=0);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 5px;
+    background-color: rgb(235, 214, 124);
+    margin:40px auto;
+    padding:10px;
+    border-radius:10px;
+    max-width:600px;
+
+
+}
+h2{
+    font-size: 32px;
+    margin-bottom: 25px;
+   
+}
+
+.abc {
+    font-size: 22px;
+   
+    background-color: rgb(115, 146, 248);
+    margin:90px auto;
+    margin-bottom: 25px;
+    margin-top: 60px;
+    padding:20px;
+    border-radius:10px;
+    align-items: center;
+    max-width: 600px;
+   
+    
+  
+
+}
+
+/* Step Box Styling */
+.step {
+    margin: 20px auto; /* Center the step boxes */
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 600px; /* Set a maximum width for the step boxes */
+}
+
+.step:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.step-content {
+    margin-left: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+/* Different Colors for Each Step */
+.step-1 { background: #FF6B6B; }  /* Red */
+.step-2 { background: #4ECDC4; }  /* Turquoise */
+.step-3 { background: #464645; }  /* Yellow */
+.step-4 { background: #6A0572; }  /* Purple */
+.step-5 { background: #ea1010; }  /* Blue */
+
+/* Table Styling */
+.table-container {
+    width: 100%;
+    margin-top: 20px;
+    overflow-x: auto; /* Enables scrolling on small screens */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #0f0e0e;
+    font-size: 18px;
+   background:none;
+}
+
+th, td {
+    border: 1px solid #171717;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #0863f6; /* Dark Green */
+    color: rgb(241, 248, 241);
+    font-size: 20px;
+}
+
+tr:nth-child(even) {
+    background-color: #7da3e0;
+}
+
+tr:hover {
+    background-color: #6f92cf;
+    transition: 0.3s;
+}
+
+td {
+    background-color: rgb(220, 229, 245);
+    color: black;
+}
+
+
+a {
+    text-decoration: none;
+    color: #0552b7;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* Course Section Styling */
+.course {
+    
+    background-color: #f4e3ce;
+    border-radius: 10px;
+    padding: 35px;
+    margin: 10px;
+    box-shadow: 0 2px 5px rgba(163, 165, 221, 0.1);
+    align-items: center;
+    max-width: 300px;
+    height:500px;
+    
+}
+
+.course h3 {
+    margin: 0;
+    font-size: 40px;
+}
+
+.paid-course {
+    background-color: #FF6B6B; /* Red */
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Styling */
+footer {
+    background-color: #4ECDC4; /* Turquoise */
+    color: white;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        max-width: 90%;
+    }
+    table {
+        font-size: 16px;
+    }
+    th, td {
+        padding: 10px;
+    }
+}
+.pqr{
+    background-color: #0f0e0e;
+    width:50px auto;
+    padding: 20px;
+
+    max-width: 10000px;
+}
+#xyz{
+    background-image: url(https://img.freepik.com/free-vector/abstract-blue-white-wave-background_41084-455.jpg?w=826);
+    background-image: no-repeat;
+}
+
+  .welcome{
+    padding-top: 50px;
+    font-size:60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+    clear:both;
+  } 
+  .background{
+
+    background-image: url(https://c.wallhere.com/photos/5c/51/AutoHotkey_programmers_code_programming_laptop-1159336.jpg!d);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    height:500px;
+    width:100vw;
+    background-size: cover;
+    margin:auto;
+    
+  }
+  .img{
+    background-image: url(https://c.wallhere.com/photos/5c/51/AutoHotkey_programmers_code_programming_laptop-1159336.jpg!d);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    height:1500px;
+    width:100%;
+    background-size: cover;
+    
+  }
+.flex-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.flex-container2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.flex-container3{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.button{
+    padding:25px;
+    max-width:500px;
+   margin:80px;
+    color:rgb(246, 243, 253);
+    background-color: #0c54e4;
+    font-size: larger;
+    
+
+}
+.button:hover{
+    background-color: #0552b7;
+    color:black;
+    transform: scale(1.2);
+    transition-duration: 2s;
+}
+.flex-container4{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.course1{
+     
+    background-color: #f4e3ce;
+    border-radius: 10px;
+    padding: 35px;
+    margin: 20px auto;
+    box-shadow: 0 2px 5px rgba(163, 165, 221, 0.1);
+    align-items: center;
+    max-width: 500px;
+    height:500px;
+    
+}
+.flex-container5{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:30px;
+}
+.flex-container6{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:30px;
+}
+.course2{
+    background-color: #f4e3ce;
+    border-radius: 10px;
+    padding: 35px;
+    margin: 20px auto;
+    box-shadow: 0 2px 5px rgba(163, 165, 221, 0.1);
+    align-items: center;
+    max-width: 500px;
+    height:500px;
+    
+}
+.float{
+    float: left;
+}
+
+.header{
+    display:flex;
+     justify-content: space-between; 
+     position:fixed;
+    padding:10px;
+    top:0;
+    left:0;
+    z-index:100;
+   
+}
